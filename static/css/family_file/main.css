@@ -1,0 +1,80 @@
+body {
+    background: #ebeff5
+}
+#grad{
+  background-image: linear-gradient(to right, #354257,#9bb5de );
+}
+
+.navbackground {
+    background-color: #00a6ff;
+}
+
+//search patient auto scroll down
+
+#myBtn_old {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+//end of scrolldown
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0fd7ff
+}
+
+.profile-button {
+    background: #046d80;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #35b1c4
+}
+
+.profile-button:focus {
+    background: #1b1861;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #0b092b;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #274b70;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #274b70;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #274b70
+}
+
+#fam_body{
+    background:#4a515c;
+}
+.modal-dialog {
+     width: 180px;
+}
