@@ -12,9 +12,11 @@ def home(request):
     portfolio = Portfolio.objects.all()
     cert = Certificates.objects.all()
     testimony = Testimonials.objects.all()
+    leastToGreatest = Portfolio.objects.all().order_by('date_created')
     context = {
         'me':me, 'skills':skills, 'frameworks':frameworks,'rate':rate,
-        'portfolio':portfolio, 'certificates':cert, 'testimonials':testimony
+        'portfolio':portfolio, 'certificates':cert, 'testimonials':testimony,
+        'recent':leastToGreatest
     }
     return render(request, 'main/index.html', context)
 def blog(request):
