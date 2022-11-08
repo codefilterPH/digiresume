@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-3qn_o-xz_%)cbd@934aae3$t&&-bap1lplc6g1x3(o=+=%$=^f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['codefilter.pythonanywhere.com']
+ALLOWED_HOSTS = ['codefilter.pythonanywhere.com', 'localhost']
 
 
 # Application definition
@@ -121,14 +121,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL = '/static/img/'
+MEDIA_URL = '/media/img/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/img/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/img/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
