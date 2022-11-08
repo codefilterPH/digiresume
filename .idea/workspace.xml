@@ -4,91 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c119eee-d77a-4f4e-ab8c-d7b0424fc58f" name="Changes" comment="Feat: Added R">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DigitalResume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DigitalResume/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0002_alter_me_bio.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0002_alter_me_bio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0002_me_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0002_me_first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0003_me_pro_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0003_me_pro_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0004_rename_pro_img_me_profile_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0004_rename_pro_img_me_profile_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0005_alter_me_profile_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0005_alter_me_profile_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0006_alter_me_profile_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0006_alter_me_profile_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0007_me_resume.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0007_me_resume.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0008_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0008_clients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0009_delete_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0009_delete_clients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0010_clients.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0011_codingskill.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0011_codingskill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0012_frameworks.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0012_frameworks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0013_alter_frameworks_percentage.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0013_alter_frameworks_percentage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0014_alter_frameworks_percentage.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0014_alter_frameworks_percentage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0015_alter_codingskill_percentage.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0015_alter_codingskill_percentage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0016_portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0016_portfolio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0017_alter_portfolio_date_created.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0017_alter_portfolio_date_created.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0018_blogs_links_certificates_testimonials_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0018_blogs_links_certificates_testimonials_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0019_rename_links_blogs_links_left_links_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0019_rename_links_blogs_links_left_links_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/0020_blogs_links_row.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/migrations_old/0020_blogs_links_row.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Euge.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/Euge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/arrow-next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/arrow-next.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/arrow-prev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/arrow-prev.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/403-4036315_microsoft-sql-server-logo-sql-server-logo-svg.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/403-4036315_microsoft-sql-server-logo-sql-server-logo-svg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/Csharp_Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/Csharp_Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/Python-Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/Python-Symbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/SQLITE.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/SQLITE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/bootstraplogo-png.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/bootstraplogo-png.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/djangoLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/djangoLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/djangoLogo_DEyGtXi.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/djangoLogo_DEyGtXi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/dot-NET-Core.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/dot-NET-Core.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/dot-NET-Core_ipZi6qx.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/dot-NET-Core_ipZi6qx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/jsLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/jsLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/codingskills/mysql_PNG23.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/codingskills/mysql_PNG23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/2x2Picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/2x2Picture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/2x2Picture_kFMV7Ij.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/2x2Picture_kFMV7Ij.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/2x2Picture_qNd7Wun.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/2x2Picture_qNd7Wun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/2x2Picture_tidcbbV.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/2x2Picture_tidcbbV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan_DL0Q09C.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan_DL0Q09C.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan_Vn5VHv1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan_Vn5VHv1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan_compressed_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan_compressed_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan_qe7cigI.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan_qe7cigI.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/me/Eugene_Bulahan_vvjC9uF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/me/Eugene_Bulahan_vvjC9uF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/121967656_259013812218731_4781717137007745596_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/121967656_259013812218731_4781717137007745596_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/122127322_849555639122134_8465561741068104006_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/122127322_849555639122134_8465561741068104006_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/177308584_489145602231490_4545637237477324755_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/177308584_489145602231490_4545637237477324755_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/275702807_446036857264245_8474130834980820969_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/275702807_446036857264245_8474130834980820969_n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/Login.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/Login.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/Profile_Management.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/Profile_Management.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/Resume.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/Resume.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/Trucking_Rates_With_Sqlite_Built_in_Database.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/Trucking_Rates_With_Sqlite_Built_in_Database.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/portfolios/bill.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/portfolios/bill.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/testimony/302573574_1181505646080464_207266308946921048_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/testimony/302573574_1181505646080464_207266308946921048_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/media/testimony/ebon.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/media/testimony/ebon.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/project-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/project-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/user-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/user-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/user-thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/user-thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/digiresume/work-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/digiresume/work-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kaitoph/blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kaitoph/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kaitoph/blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kaitoph/brands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kaitoph/mockup.png" beforeDir="false" />
+    <list default="true" id="3c119eee-d77a-4f4e-ab8c-d7b0424fc58f" name="Changes" comment="Feat: fix bugs">
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/arrow-next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/arrow-next.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/arrow-prev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/arrow-prev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/fb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/project-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/project-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/user-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/user-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/user-thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/user-thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/digiresume/work-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/work-img.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +51,7 @@
       <recent name="C:\Users\eugen\PycharmProjects\digiresume\digiresume\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eugen\PycharmProjects\digiresume\static\img\digiresume" />
       <recent name="C:\Users\eugen\PycharmProjects\digiresume\media\img" />
     </key>
   </component>
@@ -146,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667917666662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat: fix bugs">
+      <created>1667921099659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921099659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat: DigitalResume Edited" />
     <MESSAGE value="Feat: Added R" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Added R" />
+    <MESSAGE value="Feat: fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: fix bugs" />
   </component>
 </project>
