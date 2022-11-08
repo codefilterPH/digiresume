@@ -29,7 +29,7 @@
 
 {% block content %}
 
-  
+
   <!-- ================================
     Start Content
     ================================= -->
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div class="col-md">
-              <h4 class="smTitle pb-3">Coding Skills</h4>
+              <h4 class="smTitle pb-3">Tools/Coding Skills</h4>
               <div class="progressCol">
                 <div class="progressCard">
                   {% for rate_skill in skills %}
@@ -158,7 +158,7 @@
                 </div>
                 {% endfor %}
               </div>
-            </div>            
+            </div>
             <div class="cert-swiper-button-next swiper-button-next swiperBtnStyle"></div>
             <div class="cert-swiper-button-prev swiper-button-prev swiperBtnStyle"></div>
             <div class="swiper-pagination swiperPaginationStyle posInitial"></div>
@@ -246,29 +246,29 @@
               <a href="javascript:void(0)" class="simpleLink">View all</a>
             </div>
           </div>
-          <div class="sliderOuter">
-            <div class="swiper certificatesSlider">
-              <div class="swiper-wrapper">
-                {% for recent in recent %}
-                <div class="swiper-slide">
-                  <div class="cardStyle1">
-                    <h4 class="mdTitle cs1Title">
-                      <a href="javascript:void(0)">{{ recent.name }}</a>
-                    </h4>
-                    <ul class="cardOptionCol">
-                      <li>{{ recent.date_created }}</li>
-                      <li>{{ recent.name }}</li>
-                    </ul>
-                    <br><p>{{ recent.info }}</p>
+            <div class="sliderOuter">
+                <div class="swiper certificatesSlider">
+                  <div class="swiper-wrapper">
+                    {% for recent in recent %}
+                    <div class="swiper-slide">
+                      <div class="cardStyle1">
+                        <h4 class="mdTitle cs1Title">
+                          <a href="javascript:void(0)">{{ recent.name }}</a>
+                        </h4>
+                        <ul class="cardOptionCol">
+                          <li>{{ recent.date_created }}</li>
+                          <li>{{ recent.name }}</li>
+                        </ul>
+                        <br><p>{{ recent.info }}</p>
+                      </div>
+                    </div>
+                    {% endfor %}
                   </div>
                 </div>
-                {% endfor %}
-              </div>
+                <div class="cert-swiper-button-next swiper-button-next swiperBtnStyle"></div>
+                <div class="cert-swiper-button-prev swiper-button-prev swiperBtnStyle"></div>
+                <div class="swiper-pagination swiperPaginationStyle posInitial"></div>
             </div>
-            <div class="cert-swiper-button-next swiper-button-next swiperBtnStyle"></div>
-            <div class="cert-swiper-button-prev swiper-button-prev swiperBtnStyle"></div>
-            <div class="swiper-pagination swiperPaginationStyle posInitial"></div>
-          </div>
         </div>
       </div>
     </section>

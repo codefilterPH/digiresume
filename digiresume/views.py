@@ -3,6 +3,7 @@ from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from .models import *
 from .forms import *
+
 # Create your views here.
 def home(request):
     me = Me.objects.get(id=1)
@@ -12,11 +13,11 @@ def home(request):
     portfolio = Portfolio.objects.all()
     cert = Certificates.objects.all()
     testimony = Testimonials.objects.all()
-    leastToGreatest = Portfolio.objects.all().order_by('date_created')
+    recent = Portfolio.objects.all().order_by('date_created')
     context = {
         'me':me, 'skills':skills, 'frameworks':frameworks,'rate':rate,
         'portfolio':portfolio, 'certificates':cert, 'testimonials':testimony,
-        'recent':leastToGreatest
+        'recent':recent
     }
     return render(request, 'main/index.html', context)
 def blog(request):
@@ -38,7 +39,6 @@ def portfolio(request):
     portfolio = Portfolio.objects.all()
     context = {'portfolio':portfolio}
     return render(request, 'main/portfolio.html', context)
-
 def portfolio_detail(request):
     return render(request, 'main/portfolio-detail.html')
 
@@ -52,5 +52,6 @@ def save_clients(request):
             message = form.cleaned_data['message']
             p = Clients(name=name, email=email, message=message)
             p.save()
-            return HttpResponseRedirect('/digiresume/')
+            return HttpResponseRedirect('/')
     return render(request, 'main/index.html')
+
