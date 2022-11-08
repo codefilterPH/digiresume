@@ -10,22 +10,29 @@ def home(request):
     skills = CodingSkill.objects.all()
     frameworks = Frameworks.objects.all()
     rate = CodingSkill.objects.filter(percentage__gt=90)
-    portfolio = Portfolio.objects.all()
+    portfolios = Portfolio.objects.all()
     cert = Certificates.objects.all()
     testimony = Testimonials.objects.all()
-    recent = Portfolio.objects.all().order_by('date_created')
+    recent = Portfolio.objects.all().order_by('date_created')[:5]
     context = {
         'me':me, 'skills':skills, 'frameworks':frameworks,'rate':rate,
-        'portfolio':portfolio, 'certificates':cert, 'testimonials':testimony,
+        'portfolios':portfolios, 'certificates':cert, 'testimonials':testimony,
         'recent':recent
     }
     return render(request, 'main/index.html', context)
+
 def blog(request):
     links = Blogs_Links.objects.all()
     context = {'links':links}
     return render(request, 'main/blog.html', context)
-def blog_detail(request):
-    return render(request, 'main/blog-detail.html')
+
+def blog_detail(request, pk):
+    blog = Blogs_Links.objects.get(id=pk)
+    context = {
+        'blog':blog,
+    }
+    return render(request, 'main/blog-detail.html', context)
+
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
@@ -39,8 +46,13 @@ def portfolio(request):
     portfolio = Portfolio.objects.all()
     context = {'portfolio':portfolio}
     return render(request, 'main/portfolio.html', context)
-def portfolio_detail(request):
-    return render(request, 'main/portfolio-detail.html')
+
+def portfolio_detail(request, pk):
+    portfolio = Portfolio.objects.get(id=pk)
+    context = {
+        'portfolio': portfolio,
+    }
+    return render(request, 'main/portfolio-detail.html', context)
 
 def save_clients(request):
     if request.method == 'POST':

@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c119eee-d77a-4f4e-ab8c-d7b0424fc58f" name="Changes" comment="Feat: fix bugs">
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/arrow-next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/arrow-next.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/arrow-prev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/arrow-prev.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/key-skill-icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/key-skill-icon-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/project-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/project-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/user-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/user-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/user-thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/user-thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/digiresume/work-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/digiresume/work-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DigitalResume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DigitalResume/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0002_alter_me_bio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0002_me_first.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0003_me_pro_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0004_rename_pro_img_me_profile_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0005_alter_me_profile_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0006_alter_me_profile_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0007_me_resume.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0008_clients.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0009_delete_clients.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0011_codingskill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0012_frameworks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0013_alter_frameworks_percentage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0014_alter_frameworks_percentage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0015_alter_codingskill_percentage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0016_portfolio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0017_alter_portfolio_date_created.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0018_blogs_links_certificates_testimonials_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0019_rename_links_blogs_links_left_links_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0020_blogs_links_row.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/templates/main/portfolio-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/templates/main/portfolio-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digiresume/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/eugen/PycharmProjects/digiresume/digiresume/migrations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eugen/PycharmProjects/digiresume/digiresume/migrations&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eugen\PycharmProjects\digiresume\digiresume\migrations" />
@@ -85,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667921099659</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feat: fix bugs">
+      <created>1667922773534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922773534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

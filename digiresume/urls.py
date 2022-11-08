@@ -10,6 +10,6 @@ urlpatterns = [
     path('contact/', views.contact, name="contact"),
     path('save_client/', views.save_clients, name="save"),
     path('portfolio/', views.portfolio, name="portfolio"),
-    path('portfolio-detail/<int-pk/',views.portfolio_detail, name="portfolio-detail"),
+    path('portfolio-detail/<int:pk>/',views.portfolio_detail, name="pdetail"),
     path('weather/', index, name='weather'),
 ]
