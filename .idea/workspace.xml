@@ -6,32 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c119eee-d77a-4f4e-ab8c-d7b0424fc58f" name="Changes" comment="Feat: fix bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DigitalResume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DigitalResume/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0002_alter_me_bio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0002_me_first.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0003_me_pro_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0004_rename_pro_img_me_profile_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0005_alter_me_profile_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0006_alter_me_profile_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0007_me_resume.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0008_clients.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0009_delete_clients.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0011_codingskill.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0012_frameworks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0013_alter_frameworks_percentage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0014_alter_frameworks_percentage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0015_alter_codingskill_percentage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0016_portfolio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0017_alter_portfolio_date_created.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0018_blogs_links_certificates_testimonials_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0019_rename_links_blogs_links_left_links_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/0020_blogs_links_row.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/migrations_old/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/digiresume/templates/main/portfolio-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/templates/main/portfolio-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digiresume/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/digiresume/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667922773534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat: fix bugs">
+      <created>1667930077355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667930077355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

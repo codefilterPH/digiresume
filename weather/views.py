@@ -60,6 +60,7 @@ def index(request):
             map = map._repr_html_()
             context = {
                 'map': map, 'form': form, 'weather_data': weather_data, 'countries': countries, 'cities': cities,
+                'city_weather': city_weather,
             }
             return render(request, 'index.html', context)
         except:
