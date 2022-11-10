@@ -3,17 +3,27 @@ from django.db import models
 from django.forms import ModelForm
 # Create your models here.
 class Me(models.Model):
-    name = models.CharField(max_length=50, null=True, blank=False)
+    name = models.CharField(max_length=50, default='no name', null=True, blank=False)
     first = models.CharField(max_length=50, null=True, blank=False)
     title = models.CharField(max_length=50, null=True, blank=False)
     bio = models.TextField(max_length=1000, null=True, blank=False)
 
-    profile_img = models.ImageField(upload_to='me', default='static/img/digiresume/user-thumb.jpg', null=True, blank=True)
+    profile_img = models.ImageField(upload_to='me', default='static/img/digiresume/user-thumb.jpg', null=True, blank=False)
     resume = models.FileField(upload_to='resume',null=True, blank=False)
 
+    @property
+    def my_resume(self):
+        if resume:
+            return resume
+        else:
+            return None
 
     def __str__(self) -> str:
         return self.name
+
+    class Meta:
+        verbose_name = 'Me'
+        verbose_name_plural = 'Me'
 
 class Clients(models.Model):
     name = models.CharField(max_length=50, null=True, blank=True)

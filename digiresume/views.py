@@ -12,7 +12,7 @@ def home(request):
         me = Me.objects.get(id=1)
     except:
         if Me.objects.get(id=1):
-            me = Me.objects.create(id=1)
+            me = Me.objects.create(id=1, name='no name')
 
     skills = CodingSkill.objects.all()
     frameworks = Frameworks.objects.all()

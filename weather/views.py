@@ -10,6 +10,7 @@ import requests
 
 # Create your views here.
 def index(request):
+    address = ""
     # if user will search
     if request.method == 'POST':
         form = SearchForm(request.POST)
