@@ -8,8 +8,8 @@ class Me(models.Model):
     title = models.CharField(max_length=50, null=True, blank=False)
     bio = models.TextField(max_length=1000, null=True, blank=False)
 
-    profile_img = models.ImageField(upload_to='digiresume/media/me', null=True, blank=True)
-    resume = models.FileField(upload_to='digiresume/media/me',null=True, blank=False)
+    profile_img = models.ImageField(upload_to='me', default='static/img/digiresume/user-thumb.jpg', null=True, blank=True)
+    resume = models.FileField(upload_to='resume',null=True, blank=False)
 
 
     def __str__(self) -> str:

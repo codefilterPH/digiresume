@@ -7,11 +7,13 @@ from .forms import *
 
 # Create your views here.
 def home(request):
-    me = objects
+    me = []
     try:
         me = Me.objects.get(id=1)
     except:
-        me = Me.objects.create(id=1)
+        if Me.objects.get(id=1):
+            me = Me.objects.create(id=1)
+
     skills = CodingSkill.objects.all()
     frameworks = Frameworks.objects.all()
     rate = CodingSkill.objects.filter(percentage__gt=90)
