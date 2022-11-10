@@ -1,12 +1,15 @@
 
 from django.db import models
 from django.forms import ModelForm
+from django.core.validators import EmailValidator
 # Create your models here.
 class Me(models.Model):
     name = models.CharField(max_length=50, default='no name', null=True, blank=False)
     first = models.CharField(max_length=50, null=True, blank=False)
     title = models.CharField(max_length=50, null=True, blank=False)
     bio = models.TextField(max_length=1000, null=True, blank=False)
+    github = models.CharField(max_length=1000, null=True, blank=True)
+    email = models.EmailField(max_length=150, null=True, blank=True, validators=[EmailValidator()])
 
     profile_img = models.ImageField(upload_to='me', default='static/img/digiresume/user-thumb.jpg', null=True, blank=False)
     resume = models.FileField(upload_to='resume',null=True, blank=False)
