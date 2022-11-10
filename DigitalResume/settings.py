@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'digiresume.apps.DigiresumeConfig',
     'weather.apps.WeatherConfig',
-
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

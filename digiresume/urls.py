@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from .import views
 from weather.views import index
 
@@ -12,4 +12,5 @@ urlpatterns = [
     path('portfolio/', views.portfolio, name="portfolio"),
     path('portfolio-detail/<int:pk>/',views.portfolio_detail, name="pdetail"),
     path('weather/', index, name='weather'),
+    path('digi-api/', include('digi_api.urls')),
 ]

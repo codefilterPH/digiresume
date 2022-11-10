@@ -14,6 +14,8 @@ class Me(models.Model):
     profile_img = models.ImageField(upload_to='me', default='static/img/digiresume/user-thumb.jpg', null=True, blank=False)
     resume = models.FileField(upload_to='resume',null=True, blank=False)
 
+    date = models.DateTimeField(auto_now_add=True, null=True)
+
     @property
     def my_resume(self):
         if resume:
@@ -36,6 +38,10 @@ class Clients(models.Model):
     def __str__(self) -> str:
         return self.name
 
+    class Meta:
+        verbose_name = 'Client'
+        verbose_name_plural = 'Clients'
+
 class ClientsForm(ModelForm):
     class Meta:
         model = Clients
@@ -49,6 +55,10 @@ class CodingSkill(models.Model):
     def __str__(self) -> str:
         return self.name
 
+    class Meta:
+        verbose_name = 'Coding skill'
+        verbose_name_plural = 'Coding skills'
+
 class Frameworks(models.Model):
     name = models.CharField(max_length=50, null=True, blank=True)
     percentage = models.IntegerField(null=True,blank=True)
@@ -56,6 +66,10 @@ class Frameworks(models.Model):
 
     def __str__(self) -> str:
         return self.name
+
+    class Meta:
+        verbose_name = 'Framework'
+        verbose_name_plural = 'Frameworks Learned'
 
 class Portfolio(models.Model):
     name = models.CharField(max_length=50, null=True, blank=True)
@@ -66,6 +80,10 @@ class Portfolio(models.Model):
     def __str__(self) -> str:
         return self.name
 
+    class Meta:
+        verbose_name = 'Portfolio'
+        verbose_name_plural = 'Portfolios'
+
 class Certificates(models.Model):
     title = models.CharField(max_length=50,null=True, blank=True)
     date_created = models.DateField(null=True)
@@ -73,6 +91,10 @@ class Certificates(models.Model):
 
     def __str__(self) -> str:
         return self.title
+
+    class Meta:
+        verbose_name = 'Certificate'
+        verbose_name_plural = 'Certificates'
 
 class Testimonials(models.Model):
     name = models.CharField(max_length=50, null=True, blank=True)
@@ -82,6 +104,10 @@ class Testimonials(models.Model):
 
     def __str__(self) -> str:
         return self.name
+
+    class Meta:
+        verbose_name = 'Testimony'
+        verbose_name_plural = 'Testimonials'
 
 class Blogs_Links(models.Model):
     row = models.CharField(max_length=500, null=True, blank=True)
