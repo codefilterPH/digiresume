@@ -4,9 +4,14 @@ from django.http import HttpResponse
 from .models import *
 from .forms import *
 
+
 # Create your views here.
 def home(request):
-    me = Me.objects.get(id=1)
+    me = objects
+    try:
+        me = Me.objects.get(id=1)
+    except:
+        me = Me.objects.create(id=1)
     skills = CodingSkill.objects.all()
     frameworks = Frameworks.objects.all()
     rate = CodingSkill.objects.filter(percentage__gt=90)
@@ -15,23 +20,26 @@ def home(request):
     testimony = Testimonials.objects.all()
     recent = Portfolio.objects.all().order_by('date_created')[:5]
     context = {
-        'me':me, 'skills':skills, 'frameworks':frameworks,'rate':rate,
-        'portfolios':portfolios, 'certificates':cert, 'testimonials':testimony,
-        'recent':recent
+        'me': me, 'skills': skills, 'frameworks': frameworks, 'rate': rate,
+        'portfolios': portfolios, 'certificates': cert, 'testimonials': testimony,
+        'recent': recent
     }
     return render(request, 'main/index.html', context)
 
+
 def blog(request):
     links = Blogs_Links.objects.all()
-    context = {'links':links}
+    context = {'links': links}
     return render(request, 'main/blog.html', context)
+
 
 def blog_detail(request, pk):
     blog = Blogs_Links.objects.get(id=pk)
     context = {
-        'blog':blog,
+        'blog': blog,
     }
     return render(request, 'main/blog-detail.html', context)
+
 
 def contact(request):
     if request.method == 'POST':
@@ -40,12 +48,14 @@ def contact(request):
             return HttpResponseRedirect('/digiresume/message/')
     else:
         form = ContactForm()
-    return render(request, 'main/contact.html',{'form': form})
+    return render(request, 'main/contact.html', {'form': form})
+
 
 def portfolio(request):
     portfolio = Portfolio.objects.all()
-    context = {'portfolio':portfolio}
+    context = {'portfolio': portfolio}
     return render(request, 'main/portfolio.html', context)
+
 
 def portfolio_detail(request, pk):
     portfolio = Portfolio.objects.get(id=pk)
@@ -53,6 +63,7 @@ def portfolio_detail(request, pk):
         'portfolio': portfolio,
     }
     return render(request, 'main/portfolio-detail.html', context)
+
 
 def save_clients(request):
     if request.method == 'POST':
@@ -66,4 +77,3 @@ def save_clients(request):
             p.save()
             return HttpResponseRedirect('/')
     return render(request, 'main/index.html')
-
