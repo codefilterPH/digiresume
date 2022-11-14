@@ -16,13 +16,6 @@ class Me(models.Model):
 
     date = models.DateTimeField(auto_now_add=True, null=True)
 
-    @property
-    def my_resume(self):
-        if resume:
-            return resume
-        else:
-            return None
-
     def __str__(self) -> str:
         return self.name
 

@@ -17,7 +17,7 @@ def home(request):
     skills = CodingSkill.objects.all()
     frameworks = Frameworks.objects.all()
     rate = CodingSkill.objects.filter(percentage__gt=90)
-    portfolios = Portfolio.objects.all()
+    portfolios = Portfolio.objects.all().order_by('-date_created')
     cert = Certificates.objects.all()
     testimony = Testimonials.objects.all()
     recent = Portfolio.objects.all().order_by('date_created')[:5]
@@ -60,7 +60,7 @@ def portfolio(request):
 
 
 def portfolio_detail(request, pk):
-    portfolio = Portfolio.objects.get(id=pk)
+    portfolio = Portfolio.objects.get(id=pk).order_by('-date_created')
     context = {
         'portfolio': portfolio,
     }
